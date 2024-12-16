@@ -49,7 +49,7 @@ prompt_context() {
   local user=`meriemzarrouk`
 
   if [[ "$user" != "$DEFAULT_USER" || -n "$SSH_CLIENT" ]]; then
-    prompt_segment black default "%(!.%{%F{yellow}%}.)✼"
+    prompt_segment black default "%(!.%{%F{yellow}%}.) Meriem ✼"
   fi
 }
 
